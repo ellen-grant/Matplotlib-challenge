@@ -3,7 +3,7 @@ The initial steps involved merging mouse metadata with study results to create a
 # 2. Summary Statistics
 A summary statistics table was generated to provide insights into the mean, median, variance, standard deviation, and standard error of the mean (SEM) of the tumor volume for each treatment regimen. This statistical overview is crucial to understand the variability and central tendency of tumor volumes under different treatments.
 # 3. Bar and Pie Charts
-Bar Chart: A bar chart visualized the total number of observations (Mouse ID/Timepoints) for each drug regimen, highlighting the frequency of data points collected for each treatment. This provides an idea of the distribution and sample size across regimens.
+## Bar Chart: A bar chart visualized the total number of observations (Mouse ID/Timepoints) for each drug regimen, highlighting the frequency of data points collected for each treatment. This provides an idea of the distribution and sample size across regimens.
 Pie Chart: Another visualization showed the distribution of female versus male mice in the study, offering insights into the gender balance of the experimental subjects.
 # 4. Quartiles, Outliers, and Boxplots
 The final tumor volume for each mouse was analyzed across four treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Boxplots illustrated the distribution of tumor volumes, highlighting medians, quartiles, and potential outliers. This analysis allows a comparison of treatment efficacy by showcasing how tumor volumes differ across regimens.

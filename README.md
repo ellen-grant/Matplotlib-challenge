@@ -52,3 +52,33 @@ The bar chart analysis showed the number of observations for each drug regimen, 
 Capomulin and Ramicane emerged as the most effective treatment options based on the data analyzed, demonstrating significant reductions in tumor volumes and consistent results. The study’s balanced gender representation and comprehensive data analysis provide a strong foundation for these conclusions. However, given the observed correlation between mouse weight and tumor size, future studies should consider stratifying results by weight to further refine the understanding of treatment efficacy. Additionally, expanding sample sizes for other treatment regimens could offer a more complete comparison across all potential therapies.
 
 ## These conclusions suggest that Capomulin and Ramicane may be promising candidates for further investigation and potential clinical application in anti-cancer treatment strategies.
+
+
+# Limitations
+
+## 1. Limited Sample Size for Some Treatment Regimens
+The number of observations varied across different treatment regimens, with some having significantly fewer data points than others. This uneven sample size can introduce bias and limit the ability to draw robust conclusions about the effectiveness of less-tested treatments. Treatments with fewer data points may not accurately represent their true effects, making it harder to compare them against more frequently tested drugs like Capomulin and Ramicane.
+
+## 2. Potential Impact of Outliers
+Although the boxplots identified some outliers in tumor volumes, the analysis did not explore whether these outliers had a significant impact on the overall results. Outliers can skew summary statistics such as mean and variance, potentially leading to misleading conclusions. A deeper investigation into why these outliers occurred (e.g., biological variations or data recording errors) would help understand their influence.
+
+## 3. Correlation Does Not Imply Causation
+The observed positive correlation between mouse weight and tumor volume in the Capomulin regimen suggests a relationship between these variables. However, correlation does not imply causation, and it’s unclear whether heavier mice inherently develop larger tumors, or if other factors might be influencing both weight and tumor growth. Additional experiments would be needed to determine causality.
+
+## 4. Lack of Long-Term Observations
+The analysis primarily focused on the tumor volume at different timepoints within the study's timeframe, but it did not account for potential long-term effects or side effects of the treatments. Some regimens might appear effective in the short term but could have diminished efficacy or increased toxicity over a longer period. This limitation restricts the ability to draw conclusions about the long-term sustainability of the treatments.
+
+## 5. Single-Mouse Analysis for Line Plot
+The line plot analysis showcasing the tumor volume over time for a single mouse treated with Capomulin provides anecdotal evidence of the drug's effectiveness. However, drawing conclusions from a single subject can be misleading, as individual responses can vary widely. Analyzing the tumor progression across multiple mice would provide a more comprehensive understanding of Capomulin's overall effectiveness.
+
+## 6. Missing Data Considerations
+The analysis did not explicitly address whether there were missing data points in the dataset. Missing data can introduce bias or distort results, especially if the missing entries are not random but related to certain characteristics (e.g., mice with extreme tumor volumes). Addressing missing data through imputation or sensitivity analysis would strengthen the overall findings.
+
+## 7. External Validity and Generalizability
+The study was conducted on mice, and while these results are informative, they may not be fully generalizable to humans. Differences in physiology, metabolism, and tumor biology mean that the efficacy and safety of treatments observed in mice might not translate directly to human patients. Therefore, further testing in clinical trials would be necessary to validate these findings for human applications.
+
+## 8. Limited Range of Variables Analyzed
+The study primarily focused on tumor volume and did not examine other important factors such as survival rates, quality of life, or immune responses in the mice. Including additional variables could provide a more holistic view of treatment efficacy and potential side effects.
+
+## Summary of Limitations
+The limitations highlight the need for further investigation with larger, more balanced sample sizes, long-term observations, and consideration of additional variables. Addressing these limitations would help validate the conclusions drawn and provide a clearer picture of the effectiveness of the treatment regimens.
